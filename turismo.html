@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+  <![endif]-->
+  <!--[if IE 7]>         
+  <html class="no-js lt-ie9 lt-ie8">
+    <![endif]-->
+    <!--[if IE 8]>         
+    <html class="no-js lt-ie9">
+      <![endif]-->
+      <!--[if gt IE 8]> 
+      <html class="no-js">
+        <![endif]-->
+        <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content=" width=device-width, initial-scale=1">
+            <title>Tecolutla</title>
+            <!-- Fonts -->
+            <link href="//fonts.googleapis.com/css?family=Poppins:400%2C500%2C700%7COpen+Sans%7CMontserrat:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+            <!-- Icons -->
+            <link href="style/icomoon.css" rel="stylesheet">
+            <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" href="fonts/fontello/style.css">
+            <!-- CSS assets -->
+            <link href="style/bootstrap.min.css" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="modules/jquery-datepicker/jquery-ui.min.css">
+            <link href="modules/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+            <!-- LOAD slick slider assets -->
+            <link rel="stylesheet" type="text/css" href="modules/slick/slick.css"/>
+            <link rel="stylesheet" type="text/css" href="modules/slick/slick-theme.css"/>
+            <!-- LOAD JQUERY LIBRARY-->
+            <script src="js/src/plugins/jquery-3.2.1.min.js"></script>
+            <!-- REVOLUTION STYLE SHEETS -->
+            <link rel="stylesheet" type="text/css" href="modules/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+            <link rel="stylesheet" type="text/css" href="modules/revolution/css/settings.css">
+            <!-- REVOLUTION JS FILES -->
+            <script src="modules/revolution/js/jquery.themepunch.tools.min.js"></script>
+            <script src="modules/revolution/js/jquery.themepunch.revolution.min.js"></script>
+            <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+            <script src="modules/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+            <script src="modules/revolution/js/extensions/revolution.extension.video.min.js"></script>
+            <script >function setREVStartSize(e){
+              try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+              	if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+              }catch(d){console.log("Failure at Presize of Slider:"+d)}
+              };
+            </script>
+            <!-- Main theme stylesheet -->
+            <link href="style/css/template.css" rel="stylesheet" type="text/css">
+          </head>
+          <body>
+            <!-- Navigation Overlay menu start -->
+            <div class="sh__navOverlay sh__navOverlay--closed">
+              <div class="sh__navOverlay-inner">
+                <div class="sh__navOverlay--menuWrapper">
+                  <div class="sh__navOverlay--menuWrapper-inner">
+                    <!--copyright text -->
+                    <ul class="sh__navOverlay--mainNav ovr-menu">
+                      <li class="ovr-menu__item"><a href="index.html">Inicio</a></li>
+                      <li class="ovr-menu__item"><a href="rooms.html">Habitaciones</a></li>
+                      <li class="ovr-menu__item"><a href="turismo.html">Turismo</a></li>
+                    </ul>
+                    <!--start close buttom -->
+                    <a href="#" class="button-navOverlay-close">
+                      <span></span>
+                      <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+                        <circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                      </svg>
+                    </a>
+                    <!--end-close button -->
+                  </div>
+                  <!--/.sh__navOverlay-menuWrapper-inner -->
+                </div>
+                <!--/.sh__navOverlay-menuWrapper -->
+                <!--copyright text -->
+                
+                <!--end copyright text -->
+              </div>
+              <!--/.sh__navOverlay-inner -->
+            </div>
+            <!--/.sh__navOverlay -->
+            <!-- Navigation Overlay end -->
+            <div id="page_wrapper">
+              <header id="header" class="site-header header--sticky header--not-sticked site-header--absolute">
+                <div class="site-header-main-wrapper clearfix">
+                  <div class="container siteheader-container">
+                    <div class="flex-col flex-basis-auto">
+                      <div class="flex-row site-header-row site-header-main">
+                        <!-- left column - logo -->
+                        <div class="flex-col flex flex-start-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-left">
+                          <div id="logo-container">
+                            <div class="site-logo">
+                              <a href="index.html" class="site-logo-anch">
+                              <img class="logo-img-sticky site-logo-img-sticky" src="images/don_nacho_logo.png" alt="greekhotel" title="Greek Hotel" width="150">
+                              <img class="logo-img site-logo-img" src="images/don_nacho_logo.png" alt="greekhotel" title="Greek Hotel" width="196" height="36">
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- center column -->
+                        <div class="flex-col flex flex-center-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-center site-header-main-center">
+                        </div>
+                        <!-- right column - navigation menu -->
+                        <div class="flex-col flex flex-end-x flex-center-y flex-basis-auto site-header-col-right site-header-main-right">
+                          <div class="main-menu-wrapper">
+                            <a href="tel:+7668460049" class="sh-component btn-fullwhite ">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>+7668460049</span>
+                            </a>
+                            <div class="sh-component menu-wrapper">
+                              <a href="#" class="sh__hamburger-trigger">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <!--slider starts -->
+              <div class="clearfix">
+                <div class="hg-slideshow">
+                  <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="greekhotel-slider" data-source="gallery" style="background:rgba(102,102,102,0);padding:0px;">
+                    <!-- START REVOLUTION SLIDER 5.4.5.1 fullscreen mode -->
+                    <div id="rev_slider_1_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.5.1">
+                      <ul>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-1" data-transition="slotzoom-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slider_01cthumb.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                          <!-- MAIN IMAGE -->
+                          <img src="images/turismo/turismo_13.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg" data-no-retina>
+                          <!-- LAYERS -->
+                          <!-- LAYER NR. 1 -->
+                          <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
+                            id="slide-1-layer-1"
+                            data-x=""
+                            data-y=""
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5;background-color:rgba(12,12,12,0.1);"> </div>
+                          <!-- LAYER NR. 2 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-15"
+                            id="slide-1-layer-3"
+                            data-x="center" data-hoffset="8"
+                            data-y="center" data-voffset="97"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":2770,"speed":600,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 24px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;">El mejor lugar para visitar </div>
+                          <!-- LAYER NR. 3 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-14"
+                            id="slide-1-layer-2"
+                            data-x="center" data-hoffset=""
+                            data-y="center" data-voffset="-3"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"split":"chars","splitdelay":0.05,"speed":2000,"split_direction":"forward","frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 7; white-space: nowrap; font-size: 72px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Poppins;text-transform:uppercase;letter-spacing:20px;">
+                            TECOLUTLA
+                          </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-2" data-transition="slotzoom-vertical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slider_09thumb.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                          <!-- MAIN IMAGE -->
+                          <img src="images/turismo/turismo_10.jpg"  alt="Hotel Don Nacho"  data-bgposition="center center" data-bgfit="cover" data-bgparallax="8" class="rev-slidebg" data-no-retina>
+                          <!-- LAYERS -->
+                          <!-- LAYER NR. 4 -->
+                          <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
+                            id="slide-2-layer-1"
+                            data-x=""
+                            data-y=""
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5;background-color:rgba(12,12,12,0.1);"> </div>
+                          <!-- LAYER NR. 5 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-15"
+                            id="slide-2-layer-3"
+                            data-x="center" data-hoffset="7"
+                            data-y="center" data-voffset="97"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":1430,"speed":610,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 24px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;"> </div>
+                          <!-- LAYER NR. 6 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-14"
+                            id="slide-2-layer-2"
+                            data-x="center" data-hoffset=""
+                            data-y="center" data-voffset="-2"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 7; white-space: nowrap; font-size: 72px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Poppins;text-transform:uppercase;letter-spacing:20px;"><br/>
+                            
+                          </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-3" data-transition="slotzoom-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slider_11thumb.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                          <!-- MAIN IMAGE -->
+                          <img src="images/index/index_3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg" data-no-retina>
+                          <!-- LAYERS -->
+                          <!-- LAYER NR. 7 -->
+                          <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
+                            id="slide-3-layer-1"
+                            data-x=""
+                            data-y=""
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5;background-color:rgba(12,12,12,0.1);"> </div>
+                          <!-- LAYER NR. 8 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-15"
+                            id="slide-3-layer-3"
+                            data-x="center" data-hoffset="8"
+                            data-y="center" data-voffset="97"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":2770,"speed":600,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 24px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;"> </div>
+                          <!-- LAYER NR. 9 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-14"
+                            id="slide-3-layer-2"
+                            data-x="center" data-hoffset=""
+                            data-y="center" data-voffset="-3"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"split":"chars","splitdelay":0.05,"speed":2000,"split_direction":"forward","frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 7; white-space: nowrap; font-size: 72px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Poppins;text-transform:uppercase;letter-spacing:20px;"><br/>
+                            
+                          </div>
+                        </li>
+
+                     
+                        <li data-index="rs-3" data-transition="slotzoom-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slider_11thumb.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                          <!-- MAIN IMAGE -->
+                          <img src="images/index/index_5.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg" data-no-retina>
+                          <!-- LAYERS -->
+                          <!-- LAYER NR. 7 -->
+                          <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
+                            id="slide-3-layer-1"
+                            data-x=""
+                            data-y=""
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5;background-color:rgba(12,12,12,0.1);"> </div>
+                          <!-- LAYER NR. 8 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-15"
+                            id="slide-3-layer-3"
+                            data-x="center" data-hoffset="8"
+                            data-y="center" data-voffset="97"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":2770,"speed":600,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 24px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;"> </div>
+                          <!-- LAYER NR. 9 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-14"
+                            id="slide-3-layer-2"
+                            data-x="center" data-hoffset=""
+                            data-y="center" data-voffset="-3"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"split":"chars","splitdelay":0.05,"speed":2000,"split_direction":"forward","frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 7; white-space: nowrap; font-size: 72px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Poppins;text-transform:uppercase;letter-spacing:20px;"><br/>
+                           
+                          </div>
+                        </li>
+
+                        <li data-index="rs-3" data-transition="slotzoom-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slider_11thumb.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                          <!-- MAIN IMAGE -->
+                          <img src="images/index/index_6.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg" data-no-retina>
+                          <!-- LAYERS -->
+                          <!-- LAYER NR. 7 -->
+                          <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
+                            id="slide-3-layer-1"
+                            data-x=""
+                            data-y=""
+                            data-width="['full','full','full','full']"
+                            data-height="['full','full','full','full']"
+                            data-type="shape"
+                            data-basealign="slide"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5;background-color:rgba(12,12,12,0.1);"> </div>
+                          <!-- LAYER NR. 8 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-15"
+                            id="slide-3-layer-3"
+                            data-x="center" data-hoffset="8"
+                            data-y="center" data-voffset="97"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":2770,"speed":600,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 24px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;"></div>
+                          <!-- LAYER NR. 9 -->
+                          <div class="tp-caption   tp-resizeme rs-parallaxlevel-14"
+                            id="slide-3-layer-2"
+                            data-x="center" data-hoffset=""
+                            data-y="center" data-voffset="-3"
+                            data-width="['auto']"
+                            data-height="['auto']"
+                            data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":10,"split":"chars","splitdelay":0.05,"speed":2000,"split_direction":"forward","frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']"
+                            data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]"
+                            data-paddingbottom="[0,0,0,0]"
+                            data-paddingleft="[0,0,0,0]"
+                            style="z-index: 7; white-space: nowrap; font-size: 72px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Poppins;text-transform:uppercase;letter-spacing:20px;"><br/>
+                            
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                  </div>
+                  <!-- END REVOLUTION SLIDER -->
+                </div>
+              </div>
+              <!-- end clearfix -->
+              <!--Search section  -->
+              
+              <!-- end search container -->
+              <!-- start wellcome section -->
+              <div class="hg-wcome-container container">
+                <div class="hg-wcome-content">
+                  <h3>¿QUÉ LUGARES TURÍSTICOS VISITAR EN TECOLUTLA? </h3>
+                  <p>No sólo la playa es el sitio emblemático de este lugar, también hay otras atracciones en Tecolutla que debes conocer en tu próxima visita, así que hemos hecho para ti esta selección sobre qué hacer en Tecolutla: 
+
+                  </p>
+
+                  <section>
+                                              
+                                              <br>Acuario Tecolutla 
+                          Aparte de la playa, este es el lugar que debes conocer primero. Abre de lunes a viernes de 9 de la mañana a 9 de la noche y es ideal para niños desde los 3 años. Por esto mismo, la entrada es bastante económica: $30 pesos para los adultos y $20 para los pequeños. Conoce toda la variedad de peces y animales acuáticos de la región. 
+                                            
+                          <br> <br> 
+
+
+                          <div>
+
+
+                            
+                            <img src="images/turismo/turismo_16.jpg"  width="100%" height="auto">
+
+                          </div>
+                          
+                                              
+                                             <br> Barra Boca de Lima 
+                          Es un diminuto pueblo en el que sólo hay 6 habitantes, ¡real! Además, su altitud sobre el nivel del mar es de escasos dos metros y cobija al Estero Lagartos, por lo que la vegetación es abundante. De igual manera, tiene una vista impresionante al Golfo de México, de las más imponentes de la zona. 
+
+                                       
+
+
+                          <br> <br> 
+
+                           <div >
+
+
+                            
+                            <img src="images/turismo/turismo_17.jpg"  width="100%" height="auto">
+
+                          </div>
+                                             
+                                              <br> Campamento tortuguero 
+                          Su nombre oficial es Campamento Tortuguero Vida Milenaria y aquí se protege y conserva a la tortuga laud, carey y verde. Así mismo, las tortugas depositan sus huevos de mayo a septiembre y cada año liberan hasta 70 mil pequeñas tortugas. Te recomendamos ir en junio y julio, que es cuando se devuelven al mar las tortuguitas. 
+                                           
+                                    
+                          <br> <br> 
+
+                          <div >
+
+
+                            
+                            <img src="images/turismo/turismo_18.jpg"  width="100%" height="auto">
+
+                          </div>
+
+                          <br> <br> 
+
+                          <br> Museo Marino Comunitario 
+                          Este sencillo museo muestra un poco de la vida marina de la zona con las piezas expuestas, sin embargo, todas son complementadas con la explicación de la guía turística. Maravíllate con el pejelagarto disecado o con la gigantesca anguila de 2.45 metros de longitud. 
+
+                          <br> <br> 
+
+
+                          <div>
+
+
+                            
+                            <img src="images/turismo/turismo_19.jpg"  width="100%" height="auto">
+
+                          </div>
+
+
+
+                  </section>
+                </div>
+              </div>
+
+
+              <div class="hg-wcome-container container">
+                <div class="hg-wcome-content">
+                  <h3>¿CUÁNDO IR?  </h3>
+                  <p>
+
+                            Te sugerimos ir de octubre a junio, pues en los meses de verano y otoño suele haber presencia de huracanes o fenómenos meteorológicos. Por otro lado, es de las pocas playas cuyas aguas son cálidas todo el tiempo, así que su temperatura no será problema. 
+
+                            Lo que sí te recomendamos es tener mucha prudencia al estar en esas aguas, ya que la mayoría dan hacia mar abierto. Por eso, si hay alerta de marea alta es mejor prescindir de entrar a ellas, así que mejor quédate en la orilla y disfruta de la vista del atardecer. 
+
+                  </p>
+
+                 
+                </div>
+              </div>
+
+
+
+              <div class="hg-wcome-container container">
+                <div class="hg-wcome-content">
+                  <h3>¿QUÉ COMER EN TECOLUTLA?</h3>
+                  <p>
+
+                    Es imperdonable que vayas a Tecolutla y no pruebes lo mejor de su gastronomía. Te recomendamos el guatape de camarón, una especie de caldo de camarón súper espeso con chile guajillo y que tiene granitos de elote. ¿O qué te parece probar el coco malayo? Es un coco partido a la mitad y relleno de camarones.
+
+                    Tampoco te puedes perder los camarones a la diabla, el pescado tiquinchin o una piña también rellena de mariscos. También, debes probar el torito, una bebida de alcohol de caña con frutas naturales deliciosa. Y para rematar, nada como una cocada en sus distintos sabores: maracuyá, guayaba, cacahuate o licor de café.
+
+                  </p>
+
+
+
+                   <div>
+
+
+                            
+                            <img src="images/turismo/turismo_20.jpg"  width="100%" height="auto">
+
+                  </div>
+
+
+
+                </div>
+              </div>
+
+
+              <!-- start separator -->
+              
+
+
+
+
+              <!-- end separator -->
+
+              <div class="hg-wcome-container container">
+                <div class="hg-wcome-content">
+                  <h3>FAUNA</h3>
+                  <p>
+
+                   Existe una gran variedad de animales silvestres, entre los que sobresalen principalmente los conejos, ardillas, reptiles y aves. Una pieza importante del rompecabezas del ecosistema marino, es la conservación de sus especies; por lo tanto es en la cabecera de Tecolutla en donde el grupo "Vida Milenaria", dedica arduas horas en labores de rescate y conservación de las tortugas Marinas, entre las que destacan la tortuga lora, la tortuga verde y la tortuga carey. Es en ese campamento en donde cuidan de sus nidos hasta su nacimiento, que posteriormente se convierte en liberación.
+
+
+                  </p>
+
+
+                  <div>
+
+
+                            
+                            <img src="images/turismo/turismo_7.jpg"  width="100%" height="auto">
+
+                  </div>
+
+                </div>
+              </div>
+
+
+              <!-- end icon box section -->
+              <!-- start separator -->
+              <div class="clearfix hg-separator--icon-no"></div>
+              <!-- end separator -->
+              <!-- start gallery section -->
+              <section class="hg-gallery">
+                <div class="hg-gallery-container container">
+                  <div class="hg-gallery-content">
+                    <h3>TECOLUTLA</h3>
+                    <h4>Fotos
+                    </h4>
+                  </div>
+                </div>
+                <!-- start gallery -->
+                <div class="hg-gallery--row container">
+                  <div class="col-md-12 col-sm-12 hg-gallery__photo-column">
+                    <div class="hg-gridGallery">
+                      <div class="hg-gridGallery-slider">
+                        <!--first gallery-->
+                        <div class="hg-gridGallery-jstrigger gridGallery--cols3">
+                          <!--big picture-->
+                          <div class="gridGallery__item-w2">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_1.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_1.jpg" alt="gallery" width="780" />
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--small picture-->
+                          <div class="hg-gridGallery--item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_2.jpeg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_2.jpeg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--small picture-->
+                          <div class="hg-gridGallery--item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_3.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_3.jpg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!--end first gallery-->
+                        <!--start second gallery-->
+                        <div class="hg-gridGallery-jstrigger gridGallery--cols2">
+                          <!--small picture-->
+                          <div class="gridGallery--cols2 gridGallery__item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_4.jpeg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_4.jpeg" alt="gallery" width="780" />
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--small picture-->
+                          <div class="gridGallery--cols2 gridGallery__item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_5.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_5.jpg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--big picture-->
+                          <div class="gridGallery--cols2 gridGallery__item-w2">
+                            <div class="hg-gridGallery__wrapper hg-gridGallery__item-h1">
+                              <a href="images/turismo/turismo_6.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="img-container">
+                                  <img src="images/turismo/turismo_6.jpg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="hg-gridGallery-jstrigger gridGallery--cols2">
+                          <!--small picture-->
+                          <div class="gridGallery--cols2 gridGallery__item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/gallery/turismo/turismo_7.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_7.jpg" alt="gallery" width="780" />
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--small picture-->
+                          <div class="gridGallery--cols2 gridGallery__item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_8.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_8.jpg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--big picture-->
+                          <div class="gridGallery--cols2 gridGallery__item-w2">
+                            <div class="hg-gridGallery__wrapper hg-gridGallery__item-h1">
+                              <a href="images/turismo/turismo_9.jpeg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="img-container">
+                                  <img src="images/turismo/turismo_9.jpeg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="hg-gridGallery-jstrigger gridGallery--cols2">
+                          <!--small picture-->
+                          <div class="gridGallery--cols2 gridGallery__item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_10.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_10.jpg" alt="gallery" width="780" />
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--small picture-->
+                          <div class="gridGallery--cols2 gridGallery__item">
+                            <div class="hg-gridGallery__wrapper">
+                              <a href="images/turismo/turismo_11.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="hg-gridGallery__img-container">
+                                  <img src="images/turismo/turismo_11.jpg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!--big picture-->
+                          <div class="gridGallery--cols2 gridGallery__item-w2">
+                            <div class="hg-gridGallery__wrapper hg-gridGallery__item-h1">
+                              <a href="images/turismo/turismo_12.jpg" class="hg-gridGallery--image_link sh__zoom--on">
+                                <div class="img-container">
+                                  <img src="images/turismo/turismo_12.jpg" alt="gallery" width="740">
+                                </div>
+                                <i class="hg-icon glyphicon glyphicon-search hg-icon__circled-icon"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--end slick slider-->
+                    </div>
+                  </div>
+                  
+                </div>
+                <!-- end row gallery -->
+              </section>
+              <!-- start separator -->
+              <div class="clearfix hg-separator--icon-no">
+              </div>
+              <!-- end separator -->
+              <section class="hg-video-section">
+                <div class="hg-video-container container">
+                  <div class="hg-row row">
+                    <div class="col-md-6 col-sm-6">
+                      <div class="hg-video-container--content">
+                        <div class="clearfix hg-title-block">
+                          <h3 class="hg-title-block__title">EL MEJOR LUGAR PARA PASAR LAS VACACIONES</h3>
+                          <h4 class="hg-title-block__subtitle">Vea este increíble recorrido por Tecolutla en video</h4>
+                        </div>
+                       
+                        
+                      </div>
+                    </div>
+                    <!-- right column video -->
+                    <div class="col-md-6 col-sm-6">
+                      <div class="hg-video-container--media-container">
+                        <!-- flex div -->
+                        <div class="hg-bgsource">
+                          <div class="hg-video-container__bg"></div>
+                        </div>
+                        <!-- bg img -->
+                        <div class="hg-video-container__iconbox-video">
+                          <!-- flex item-->
+                          <a href="https://www.youtube.com/watch?v=oWbTIvK8ekM" class="hg__playVideo">
+                          <img src="img-assets/playbtn.png" class="hg-icon-video__icon img-responsive" alt="playbtn" width="110" height="110">
+                          </a>
+                        </div>
+                      </div>
+                      <!-- end flex div -->
+                    </div>
+                  </div>
+                  <!-- end video row -->
+                </div>
+                <!-- end video container -->
+              </section>
+              <div class="hg-promotions-container container">
+                <div class="hg-gpromotions-content">
+                  <h3>ACTIVIDADES</h3>
+                  <h4>Disfruta con tu familia de estas actividades en Tecolutla
+                  </h4>
+                </div>
+              </div>
+              <section class="hg-promotions">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4 hg-prom-col">
+                      <div class="hg-prom-content">
+                        <div class="hg-prom-content--imgbox">
+                          <div class="hg-prom-content__wrapper">
+                            <a href="https://www.mexicodesconocido.com.mx/costa-esmeralda-veracruz.html" target="_blank" class="imglink">
+                            <img src="images/turismo/turismo_13.jpg" alt title="room" class="img-responsive image-boxes-img cover-fit-img">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="hg-prom-content--txt">
+                          <div class="hg-title-block">
+                            <h3 class="hg-title-block__title">Costa Esmeralda</h3>
+                            <h4 class="hg-title-block__subtitle">Disfrutaras de las playas Cabo alto o Boca de Lima, estas son perfectas para nadar o practicar buceo y si eres atrevido tendrás la oportunidad de realizar algunas actividades acuáticas.
+
+                            El clima de costa Esmeralda es cálido, así que será perfecto para tu estadía en este lugar.</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hg-prom-col">
+                      <div class="hg-prom-content">
+                        <div class="hg-prom-content--imgbox">
+                          <div class="hg-prom-content__wrapper">
+                            <a href="https://tecolutlaveracruz.mx/Nuestro%20Municipio/Los%20Manglares" target="_blank" class="imglink">
+                            <img src="images/turismo/turismo_14.jpg" alt title="room" class="img-responsive image-boxes-img cover-fit-img">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="hg-prom-content--txt">
+                          <div class="hg-title-block">
+                            <h3 class="hg-title-block__title">Manglares</h3>
+                            <h4 class="hg-title-block__subtitle">Te propongo que te adentres a los Manglares, estos van desde Casitas, Veracruz hasta el Puerto de Tecolutla, recorrerás una extensión de casi 54 km de costa.
+
+
+                            Observaras fauna como garzas blancas, viuditas, pelícanos, águilas, zopilotes, mapaches, tlacuaches, cangrejos rojos, violinistas, cangrejos azules y cocodrilos.
+
+                            Vivirás una experiencia ecoturística inolvidable que no te puedes perder.</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 hg-prom-col">
+                      <div class="hg-prom-content">
+                        <div class="hg-prom-content--imgbox">
+                          <div class="hg-prom-content__wrapper">
+                            <a href="https://www.inah.gob.mx/zonas/153-zona-arqueologica-el-tajin-y-museo-de-sitio" target="_blank" class="imglink">
+                            <img src="images/turismo/turismo_15.jpg" alt title="room" class="img-responsive image-boxes-img cover-fit-img">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="hg-prom-content--txt">
+                          <div class="hg-title-block">
+                            <h3 class="hg-title-block__title">Zona Arqueológica “El Tajín”</h3>
+                            <h4 class="hg-title-block__subtitle">Desde Tecolutla a unos 45 min en auto llegaras a la zona arqueológica el Tajín  donde podrás recorrer este sitio y observar un espectáculo de los voladores de Papantla.</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- end promotions section -->
+              <section class="hg-reviews">
+                <!--flex -->
+                <div class="hg-reviews-bg rellax" data-rellax-percentage="0.9" style="background-image: url('images/santorinipano.jpg')">
+                  <div class="overlay--opacity">
+                  </div>
+                </div>
+                <!-- end bg -->
+                <div class="hg-reviews--custom-height container">
+                  <!-- flex center -->
+                  <div class="hg-testimonialSlider" style="z-index:9;">
+                    <!-- testimonial1 -->
+                    <div class="testim">
+                      <div class=" hg-title-block">
+                        <h3 class="hg-title-block__title">Esther H.</h3>
+                        <h4 class="hg-title-block__subtitle">"Excelente lugar de gente muy cálida y amable."</h4>
+                      </div>
+                      <div class="hg-testimonialSlider--image-boxes">
+                        <img class="hg-testimonialSlider--image-boxes__element img-responsive" src="img-assets/rating-5.png" alt="rating5" >
+                      </div>
+                    </div>
+                    <!-- testimonial2 -->
+                    <div class="testim">
+                      <div class=" hg-title-block">
+                        <h3 class="hg-title-block__title">Carlos L.</h3>
+                        <h4 class="hg-title-block__subtitle">"Es un lugar muy divertido, con muchos lugares para comer y con gente local muy amable" </h4>
+                      </div>
+                      <div class="hg-testimonialSlider--image-boxes">
+                        <img class="hg-testimonialSlider--image-boxes__element img-responsive" src="img-assets/rating-5.png" alt="rating5" width="145" height="62">
+                      </div>
+                    </div>
+
+
+                    <div class="testim">
+                      <div class=" hg-title-block">
+                        <h3 class="hg-title-block__title">Vulkan G.</h3>
+                        <h4 class="hg-title-block__subtitle">"Sus hermosas y tranquilas playas, la comida y los lugareños muy cordiales" </h4>
+                      </div>
+                      <div class="hg-testimonialSlider--image-boxes">
+                        <img class="hg-testimonialSlider--image-boxes__element img-responsive" src="img-assets/rating-5.png" alt="rating5" width="145" height="62">
+                      </div>
+                    </div>
+
+
+
+                  </div>
+                </div>
+                <!-- end custom height container -->
+              </section>
+             
+              
+              <!-- end icon box section -->
+              <!-- start google maps -->
+            
+              <!-- end google maps -->
+             
+              <!-- end services section -->
+             
+              <!-- end instagram section -->
+              <!--  SLIDER GALLERY -->
+              
+              <!-- START FOOTER SECTION -->
+              <footer>
+                <div class="hg-footer container">
+                  <div class="hg-footer--row row">
+                    <div class=" col-md-12 col-sm-12">
+                      
+                      <div class="clearfix hg-title-block">
+                        <h3 class="hg-title-block__title">Siguenos en:</h3>
+                      </div>
+                      <ul class="footer-social">
+                        <li class="footer-social__item "><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="footer-social__item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="footer-social__item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="footer-social__item"><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="footer-social__item"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                      </ul>
+                    
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              <!-- end footer section -->
+            </div>
+            <!-- end page_wrapper -->
+            <a href="#" class="totop">TOP</a> <!--/.totop -->
+            <!-- google maps script -->
+            <script>
+              var map;
+              var myLatlng;
+              var marker;
+              function initMap() {
+              var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h1 id="firstHeading" class="firstHeading">Greek Hotel</h1>'+
+                '<div id="bodyContent">'+
+                      '<p>77 Winchester Lane Coachella, CA 92236</p>'+
+                '</div>'+
+                '</div>';
+              
+              var infowindow = new google.maps.InfoWindow({
+               content: contentString
+              });
+              myLatlng = new google.maps.LatLng(40.713287,-74.016626);
+              var infowindow = new google.maps.InfoWindow({
+              content: contentString
+              });
+              marker = new google.maps.Marker({
+              position: myLatlng,
+              title:"Hello World!",
+              icon: 'img-assets/logotype.png'
+              });
+              marker.addListener('click', function() {
+                infowindow.open(map, marker);
+              });
+                map = new google.maps.Map(document.getElementById('map'), {
+                  center: {lat: 40.713287, lng: -74.016626},
+                  zoom: 14,
+              styles: [
+              {
+                 "featureType": "administrative",
+                 "elementType": "labels.text.fill",
+                 "stylers": [
+                     {
+                         "color": "#444444"
+                     }
+                 ]
+              },
+              {
+                 "featureType": "administrative.province",
+                 "elementType": "labels.text",
+                 "stylers": [
+                     {
+                         "lightness": "27"
+                     }
+                 ]
+              },
+              {
+                "featureType": "administrative.locality",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "color": "#3b3939"
+                    },
+                    {
+                        "weight": "0.76"
+                    },
+                    {
+                        "saturation": "-21"
+                    },
+                    {
+                        "lightness": "45"
+                    }
+                ]
+              },
+              {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f2f2f2"
+                    }
+                ]
+              },
+              {
+                "featureType": "landscape",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+              },
+              {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+              },
+              {
+                "featureType": "poi",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "weight": "0.70"
+                    },
+                    {
+                        "color": "#8a8a8a"
+                    }
+                ]
+              },
+              {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "lightness": 45
+                    }
+                ]
+              },
+              {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+              },
+              {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+              },
+              {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+              },
+              {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#e4e4e4"
+                    },
+                    {
+                        "visibility": "on"
+                    }
+                ]
+              }
+              ]
+              
+                }
+              
+              );
+              marker.setMap(map);
+              }
+            </script>
+            <!-- revolution slider script -->
+            <script>
+              var revapi1,
+              	tpj=jQuery;
+              
+              tpj(document).ready(function() {
+              	if(tpj("#rev_slider_1_1").revolution == undefined){
+              		revslider_showDoubleJqueryError("#rev_slider_1_1");
+              	}else{
+              		revapi1 = tpj("#rev_slider_1_1").show().revolution({
+              			sliderType:"standard",
+              			//jsFileLocation:"//localhost/wpmu/greek/wp-content/plugins/revslider/public/assets/js/",
+              			sliderLayout:"fullscreen",
+              			dottedOverlay:"none",
+              			delay:9000,
+              			navigation: {
+              				keyboardNavigation:"off",
+              				keyboard_direction: "horizontal",
+              				mouseScrollNavigation:"off",
+               							mouseScrollReverse:"default",
+              				onHoverStop:"off",
+              				arrows: {
+              					style:"zeus",
+              					enable:true,
+              					hide_onmobile:false,
+              					hide_onleave:false,
+              					tmp:'<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
+              					left: {
+              						h_align:"left",
+              						v_align:"center",
+              						h_offset:20,
+              						v_offset:0
+              					},
+              					right: {
+              						h_align:"right",
+              						v_align:"center",
+              						h_offset:20,
+              						v_offset:0
+              					}
+              				}
+              			},
+              			visibilityLevels:[1240,1024,778,480],
+              			gridwidth:1240,
+              			gridheight:890,
+              			lazyType:"none",
+              			scrolleffect: {
+              				fade:"on",
+              				blur:"on",
+              				maxblur:"100",
+              				on_slidebg:"on",
+              				on_parallax_layers:"on",
+              				direction:"top",
+              			},
+              			parallax: {
+              				type:"scroll",
+              				origo:"enterpoint",
+              				speed:400,
+              				speedbg:0,
+              				speedls:0,
+              				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+              			},
+              			shadow:0,
+              			spinner:"spinner0",
+              			stopLoop:"on",
+              			stopAfterLoops:0,
+              			stopAtSlide:1,
+              			shuffle:"off",
+              			autoHeight:"off",
+              			fullScreenAutoWidth:"off",
+              			fullScreenAlignForce:"off",
+              			fullScreenOffsetContainer: "",
+              			fullScreenOffset: "",
+              			disableProgressBar:"on",
+              			hideThumbsOnMobile:"off",
+              			hideSliderAtLimit:0,
+              			hideCaptionAtLimit:0,
+              			hideAllCaptionAtLilmit:0,
+              			debugMode:false,
+              			fallbacks: {
+              				simplifyAll:"off",
+              				nextSlideOnWindowFocus:"off",
+              				disableFocusListener:false,
+              			}
+              		});
+              	}
+              
+              });	/*ready*/
+              
+            </script>
+            <script src="js/src/plugins/bootstrap.min.js"></script>
+            <script src="modules/slick/slick.min.js"></script>
+            <script src="js/src/plugins/jquery-migrate-1.4.1.min.js"></script>
+            <script src="modules/rellax-master/rellax.min.js"></script>
+            <script src="modules/Magnific-Popup/jquery.magnific-popup.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkey2t16mYOK9K0_Z0zJr-cTo9fRO7jSA&callback=initMap" async defer></script>
+            <script src="modules/jquery-datepicker/jquery-ui.min.js"></script>
+            <!--Easy paginate script -->
+            <script src="modules/easyPaginate/jquery.easyPaginate.js"></script>
+            <!-- Main template script -->
+            <script src="js/src/script.js"></script>
+          </body>
+        </html>

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content=" width=device-width, initial-scale=1">
+		<title>Greek Hotel - Default styles</title>
+
+		<!-- Fonts -->
+		<link href="//fonts.googleapis.com/css?family=Poppins:400%2C500%2C700%7COpen+Sans%7CMontserrat:500%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+		<!-- Icons -->
+		<link href="style/icomoon.css" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fonts/fontello/style.css">
+
+		<!-- CSS assets -->
+		<link href="style/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="modules/jquery-datepicker/jquery-ui.min.css">
+		<link href="modules/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+
+		<!-- LOAD slick slider assets -->
+		<link rel="stylesheet" type="text/css" href="modules/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="modules/slick/slick-theme.css"/>
+
+
+		<!-- Main theme stylesheet -->
+		<link href="style/css/template.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body>
+    <!-- Navigation Overlay menu start -->
+  	<div class="sh__navOverlay sh__navOverlay--closed">
+  			<div class="sh__navOverlay-inner">
+  				<div class="sh__navOverlay--menuWrapper">
+  					<div class="sh__navOverlay--menuWrapper-inner">
+  						<!--copyright text -->
+  						<ul class="sh__navOverlay--mainNav ovr-menu">
+  							<li class="ovr-menu__item"><a href="index.html">Home</a></li>
+  							<li class="ovr-menu__item"><a href="rooms.html">Rooms</a></li>
+  							<li class="ovr-menu__item"><a href="searchrooms.html">Searchrooms</a></li>
+  							<li class="ovr-menu__item"><a href="room_sample.html">Room Sample</a></li>
+  							<li class="ovr-menu__item"><a href="cart.html">Cart</a></li>
+  							<li class="ovr-menu__item"><a href="checkout.html">Checkout</a></li>
+  						</ul>
+
+  						<!--start close buttom -->
+  						<a href="#" class="button-navOverlay-close">
+  							<span></span>
+  							<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+  								<circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+  							</svg>
+  						</a><!--end-close button -->
+
+  					</div><!--/.sh__navOverlay-menuWrapper-inner -->
+  				</div><!--/.sh__navOverlay-menuWrapper -->
+  				<!--copyright text -->
+  				<div class="copyText-wrapper">
+  					<div class="copyText">© 2017 Hogash.com
+  					</div>
+  				</div><!--end copyright text -->
+  			</div><!--/.sh__navOverlay-inner -->
+  		</div> <!--/.sh__navOverlay -->
+  	<!-- Navigation Overlay end -->
+
+  	<div id="page_wrapper">
+  		<header id="header" class="site-header header--sticky header--not-sticked site-header--absolute">
+  				<div class="site-header-main-wrapper clearfix">
+  					<div class="container siteheader-container">
+  							<div class="flex-col flex-basis-auto">
+  								<div class="flex-row site-header-row site-header-main">
+  									<!-- left column - logo -->
+  									<div class="flex-col flex flex-start-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-left">
+  										<div id="logo-container">
+  												<div class="site-logo">
+  														<a href="index.html" class="site-logo-anch">
+  																<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/greekhotel-logo-white.png" alt="greekhotel" title="Greek Hotel">
+  																<img class="logo-img site-logo-img" src="img-assets/greekhotel-logo.png" alt="greekhotel" title="Greek Hotel" width="196" height="36">
+  														</a>
+  												</div>
+  										</div>
+  									</div>
+  									<!-- center column -->
+  									<div class="flex-col flex flex-center-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-center site-header-main-center">
+  									</div>
+  									<!-- right column - navigation menu -->
+  									<div class="flex-col flex flex-end-x flex-center-y flex-basis-auto site-header-col-right site-header-main-right">
+  											<div class="main-menu-wrapper">
+  													<a href="tel:+7668460049" class="sh-component btn-fullwhite ">
+  															<i class="fa fa-phone" aria-hidden="true"></i>
+  															<span>+7668460049</span>
+  													</a>
+  													<div class="sh-component menu-wrapper">
+  														<a href="#" class="sh__hamburger-trigger">
+  															<span></span>
+  															<span></span>
+  															<span></span>
+  														</a>
+  													</div>
+  											</div>
+  									</div>
+  								</div>
+  							</div>
+  					</div>
+  				</div>
+  		</header>
+      <!--breadcrumb section  -->
+      <div class="page-subheader psub--light">
+        <div class="container">
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Search</li>
+          </ul>
+        </div>
+      </div>
+      <!--Search section  -->
+			<div class="container mgt-60">
+				<div class="row">
+					<!--left side-->
+					<div class="col-sm-8 col-md-9 ">
+						<h1 class="hg-search">Search</h1>
+						<ul class="search-result">
+							<li class="search-result__room">
+								<div class="media-container">
+									<a href="room_sample.html">
+										<img class="img-responsive" src="images/room_16.jpg" alt="room24"/>
+									</a>
+								</div>
+								<div class="hg-room-description">
+										<h4>
+											<a href="room_sample.html">DOBLE MEDIANA</a>
+										</h4>
+										<ul class="hg-room-meta">
+											<li class="hg-room-meta__capacity">
+												<label>Capacity:</label>
+												<p class="hg-room-meta--cap">4</p>
+											</li>
+											<li class="hg-room-meta__max_child">
+												<label>Max Children:</label>
+												<p class="hg-room-meta--child">3</p>
+											</li>
+											<li class="hg-room-meta__price">
+												<label>Price:</label>
+												<span class="hg-room-meta--pr">$66.0</span>
+											</li>
+											<li class="hg-room-meta__quantity">
+												<label>Quantity: </label>
+												<div class="hg-room-meta--qt">
+													<select name="hg-room-meta__num-of-rooms" class="number_room_select">
+														<option value="">Select</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+														<option value="25">25</option>
+														<option value="26">26</option>
+														<option value="27">27</option>
+														<option value="28">28</option>
+														<option value="29">29</option>
+														<option value="30">30</option>
+														<option value="31">31</option>
+														<option value="32">32</option>
+														<option value="33">33</option>
+														<option value="34">34</option>
+														<option value="35">35</option>
+														<option value="36">36</option>
+														<option value="37">37</option>
+														<option value="38">38</option>
+														<option value="39">39</option>
+														<option value="40">40</option>
+														<option value="41">41</option>
+														<option value="42">42</option>
+														<option value="43">43</option>
+														<option value="44">44</option>
+														<option value="45">45</option>
+														<option value="46">46</option>
+														<option value="47">47</option>
+														<option value="48">48</option>
+														<option value="49">49</option>
+														<option value="50">50</option>
+														<option value="51">51</option>
+														<option value="52">52</option>
+														<option value="53">53</option>
+														<option value="54">54</option>
+														<option value="55">55</option>
+														<option value="56">56</option>
+														<option value="57">57</option>
+														<option value="58">58</option>
+														<option value="59">59</option>
+														<option value="60">60</option>
+														<option value="61">61</option>
+														<option value="62">62</option>
+														<option value="63">63</option>
+														<option value="64">64</option>
+														<option value="65">65</option>
+														<option value="66">66</option>
+														<option value="67">67</option>
+														<option value="68">68</option>
+														<option value="69">69</option>
+														<option value="70">70</option>
+														<option value="71">71</option>
+														<option value="72">72</option>
+														<option value="73">73</option>
+														<option value="74">74</option>
+														<option value="75">75</option>
+														<option value="76">76</option>
+														<option value="77">77</option>
+														<option value="78">78</option>
+														<option value="79">79</option>
+														<option value="80">80</option>
+														<option value="81">81</option>
+														<option value="82">82</option>
+														<option value="83">83</option>
+														<option value="84">84</option>
+														<option value="85">85</option>
+														<option value="86">86</option>
+														<option value="87">87</option>
+														<option value="88">88</option>
+														<option value="89">89</option>
+														<option value="90">90</option>
+														<option value="91">91</option>
+														<option value="92">92</option>
+														<option value="93">93</option>
+														<option value="94">94</option>
+														<option value="95">95</option>
+														<option value="96">96</option>
+														<option value="97">97</option>
+														<option value="98">98</option>
+														<option value="99">99</option>
+														<option value="100">100</option>
+													</select>
+												</div>
+											</li>
+											<li class="hg-room-meta__add_to_cart">
+												<button class="hb_btn btn_add_to_cart" type="submit">Select this room</button>
+											</li>
+										</ul>
+								</div>
+							</li> <!--end first row result-->
+
+							<li class="search-result__room">
+								<div class="media-container">
+									<a href="room_sample.html">
+										<img class="img-responsive" src="images/room_10.jpg" alt="room10"/>
+									</a>
+								</div>
+								<div class="hg-room-description">
+										<h4>
+											<a href="room_sample.html">Luxury Room 3</a>
+										</h4>
+										<ul class="hg-room-meta">
+											<li class="hg-room-meta__capacity">
+												<label>Capacity:</label>
+												<p class="hg-room-meta--cap">4</p>
+											</li>
+											<li class="hg-room-meta__max_child">
+												<label>Max Children:</label>
+												<p class="hg-room-meta--child">3</p>
+											</li>
+											<li class="hg-room-meta__price">
+												<label>Price:</label>
+												<span class="hg-room-meta--pr">$96.0</span>
+											</li>
+											<li class="hg-room-meta__quantity">
+												<label>Quantity: </label>
+												<div class="hg-room-meta--qt">
+													<select name="hg-room-meta__num-of-rooms" class="number_room_select">
+														<option value="">Select</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+														<option value="25">25</option>
+														<option value="26">26</option>
+														<option value="27">27</option>
+														<option value="28">28</option>
+														<option value="29">29</option>
+														<option value="30">30</option>
+														<option value="31">31</option>
+														<option value="32">32</option>
+														<option value="33">33</option>
+														<option value="34">34</option>
+														<option value="35">35</option>
+														<option value="36">36</option>
+														<option value="37">37</option>
+														<option value="38">38</option>
+														<option value="39">39</option>
+														<option value="40">40</option>
+														<option value="41">41</option>
+														<option value="42">42</option>
+														<option value="43">43</option>
+														<option value="44">44</option>
+														<option value="45">45</option>
+														<option value="46">46</option>
+														<option value="47">47</option>
+														<option value="48">48</option>
+														<option value="49">49</option>
+														<option value="50">50</option>
+														<option value="51">51</option>
+														<option value="52">52</option>
+														<option value="53">53</option>
+														<option value="54">54</option>
+														<option value="55">55</option>
+														<option value="56">56</option>
+														<option value="57">57</option>
+														<option value="58">58</option>
+														<option value="59">59</option>
+														<option value="60">60</option>
+														<option value="61">61</option>
+														<option value="62">62</option>
+														<option value="63">63</option>
+														<option value="64">64</option>
+														<option value="65">65</option>
+														<option value="66">66</option>
+														<option value="67">67</option>
+														<option value="68">68</option>
+														<option value="69">69</option>
+														<option value="70">70</option>
+														<option value="71">71</option>
+														<option value="72">72</option>
+														<option value="73">73</option>
+														<option value="74">74</option>
+														<option value="75">75</option>
+														<option value="76">76</option>
+														<option value="77">77</option>
+														<option value="78">78</option>
+														<option value="79">79</option>
+														<option value="80">80</option>
+														<option value="81">81</option>
+														<option value="82">82</option>
+														<option value="83">83</option>
+														<option value="84">84</option>
+														<option value="85">85</option>
+														<option value="86">86</option>
+														<option value="87">87</option>
+														<option value="88">88</option>
+														<option value="89">89</option>
+														<option value="90">90</option>
+														<option value="91">91</option>
+														<option value="92">92</option>
+														<option value="93">93</option>
+														<option value="94">94</option>
+														<option value="95">95</option>
+														<option value="96">96</option>
+														<option value="97">97</option>
+														<option value="98">98</option>
+														<option value="99">99</option>
+														<option value="100">100</option>
+													</select>
+												</div>
+											</li>
+											<li class="hg-room-meta__add_to_cart">
+												<button class="hb_btn btn_add_to_cart" type="submit">Select this room</button>
+											</li>
+										</ul>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+
+					<!--Right side-->
+					<aside class="col-sm-4 col-md-3 ">
+						<div class="sidebar">
+
+							<!--start search form-->
+
+			  				<h2>SEARCH YOUR ROOM</h2>
+			  				<form action="searchresult.html">
+			  				<div class="flex-column">
+			  					<!--Column adults  -->
+			  					<div class="flex-col">
+			  						<!--date picker arrival-->
+			  						<div class="hg-form-component-input form-group">
+			  							<label for="reservation-startdate">Arrival date</label>
+			  							<div class='input-group date'>
+			                    <input id="reservation-startdate" type='text' class="form-control js-datepicker" value placeholder="Arrival Date"/>
+
+			                </div>
+			            </div>
+			  						</div>
+			  						<!---date pickerdeparture  -->
+			  						<div class="flex-col">
+			  							<div class="hg-form-component-input form-group">
+			  								<label for="reservation-enddate">Departure date</label>
+			  								<div class='input-group date'>
+			                      <input id="reservation-enddate" type='text' class="form-control js-datepicker" value placeholder="Departure Date" />
+
+			                  </div>
+			              </div>
+			  							</div>
+
+			  					<!--Column adults  -->
+			  					<div class="flex-col">
+			  						<div class="hg-form-component-input">
+			  							<label for="reservation-people">Adults</label>
+			  							<select id="reservation-people" name="adults">
+			  								<optgroup label="Adults">
+			  									<option value="0">Adults</option>
+			  									<option value="1">1</option>
+			  									<option value="2">2</option>
+			  									<option value="3">3</option>
+			  									<option value="4">4</option>
+			  								</optgroup>
+			  							</select>
+			  						</div>
+			  						</div>
+
+			  					<!--Column children  -->
+			  					<div class="flex-col">
+			  						<div class="hg-form-component-input">
+			  							<label for="reservation-children">Children</label>
+			  							<select id="reservation-children" name="children">
+			  								<optgroup label="Children">
+			  									<option value="0">Children</option>
+			  									<option value="1">1</option>
+			  									<option value="2">2</option>
+			  									<option value="3">3</option>
+			  									<option value="4">4</option>
+			  								</optgroup>
+			  							</select>
+			  						</div>
+			  					</div>
+			  					<!--Column submit -->
+			  					<div class="flex-col">
+			  							<div class="hg-form-component">
+			  								<button class="hb_btn btn-gradient" type="submit"> Check Availability</button>
+			  							</div>
+			  						</div>
+			  				</div>
+			  			</form>
+							<div class="hg-widget">
+								<h3>Cart</h3>
+								<p class="hg-widget--minicart">Your cart is now empty</p>
+							</div>
+
+
+						</div><!--end sidebar-->
+					</aside>
+
+				</div><!--end row  -->
+			</div><!--end container  -->
+
+        <!-- START FOOTER SECTION -->
+
+      <footer>
+        <div class="hg-footer container">
+          <div class="hg-footer--row row">
+            <div class=" col-md-12 col-sm-12">
+                <ul class="footer-nav">
+                  <li class="footer-nav__item"><a href="index.html">Home</a></li>
+                  <li class="footer-nav__item"><a href="rooms.html">Rooms</a></li>
+                  <li class="footer-nav__item"><a href="searchrooms.html">Searchrooms</a></li>
+                  <li class="footer-nav__item"><a href="room_sample.html">Room Sample</a></li>
+                  <li class="footer-nav__item"><a href="cart.html">cart</a></li>
+                  <li class="footer-nav__item"><a href="checkout.html">checkout</a></li>
+                </ul>
+                <div class="clearfix hg-title-block">
+                  <h3 class="hg-title-block__title">Follow us:</h3>
+                </div>
+                <ul class="footer-social">
+                  <li class="footer-social__item "><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                    </a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+
+                </ul>
+                <div class="hg-textbox">
+                  <p class="copyright">
+                    Copyright &copy; 2016 Kallyas | Hogash.com
+                    <br>
+                    This Demo is part of Kallyas Theme. All rights reserved.
+                  </p>
+                </div>
+          </div>
+        </div>
+      </div>
+      </footer>	<!-- end footer section -->
+  </div><!-- end page_wrapper -->
+  <a href="#" class="totop">TOP</a> <!--/.totop -->
+
+  <script src="js/src/plugins/jquery-3.2.1.min.js"></script>
+  <script src="js/src/plugins/bootstrap.min.js"></script>
+  <script src="modules/slick/slick.min.js"></script>
+
+  <script src="modules/rellax-master/rellax.min.js"></script>
+  <script src="modules/Magnific-Popup/jquery.magnific-popup.js"></script>
+  <script src="modules/jquery-datepicker/jquery-ui.min.js"></script>
+	<!--Easy paginate script -->
+	<script src="modules/easyPaginate/jquery.easyPaginate.js"></script>
+  <!-- Main template script -->
+  <script src="js/src/script.js"></script>
+  </body>
+  </html>
