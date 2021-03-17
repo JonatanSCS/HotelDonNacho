@@ -345,6 +345,25 @@ button {
   border-radius: 3px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  color: #dc8f03;
+  margin: 3%;
+}
+
+.centrado {
+  margin-left: 42%;
+}
+
+button.margin_button {
+  margin: 3%;
+}
+
+.centrado2 {
+  margin-left: 90%;
+}
+
+.espaciado {
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
 .btn-fullwhite {
@@ -937,7 +956,7 @@ footer {
 }
 
 .hg-gallery--row {
-  width: 79%;
+  width: 100%;
   background-color: #efefef;
   height: auto;
   padding-bottom: 50px;
@@ -1994,7 +2013,7 @@ footer {
 }
 
 .hg-form-component-input .input-group.date {
-  border-bottom: 2px solid #E5E5E5;
+  border-bottom: 2px solid #e5e5e5;
 }
 
 .hg-form-component-input .input-group.date:hover {
@@ -2003,7 +2022,7 @@ footer {
 
 .hg-form-component-input .input-group.date:after {
   position: absolute;
-  content: '\f073';
+  content: "\f073";
   color: #aaa;
   font: normal normal normal 14px/1 FontAwesome;
   right: 22px;
@@ -2026,8 +2045,8 @@ footer {
   width: 100%;
 }
 
-.hg-form-component-input .input-group input[type=text] {
-  border-bottom: 2px solid #E5E5E5;
+.hg-form-component-input .input-group input[type="text"] {
+  border-bottom: 2px solid #e5e5e5;
   border-radius: 0;
 }
 
@@ -2054,7 +2073,7 @@ footer {
   }
 }
 
-select, .hg-form-component-input .input-group input[type=text] {
+select, .hg-form-component-input .input-group input[type="text"] {
   text-overflow: ellipsis;
   font-family: sans-serif;
   background: none;
@@ -2069,34 +2088,44 @@ select, .hg-form-component-input .input-group input[type=text] {
   line-height: 24px;
   -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
 }
 
-select:focus, .hg-form-component-input .input-group input:focus[type=text], select:hover, .hg-form-component-input .input-group input:hover[type=text] {
+select:focus, .hg-form-component-input .input-group input:focus[type="text"],
+select:hover,
+.hg-form-component-input .input-group input:hover[type="text"] {
   border-bottom: 2px solid #222;
   border-radius: 0px;
   outline: none;
 }
 
-select:visited, .hg-form-component-input .input-group input:visited[type=text], select:active, .hg-form-component-input .input-group input:active[type=text] {
+select:visited, .hg-form-component-input .input-group input:visited[type="text"],
+select:active,
+.hg-form-component-input .input-group input:active[type="text"] {
   outline: none;
+}
+
+.btn-reserv {
+  width: 90% !important;
+  text-align: center !important;
+  height: 6.5rem !important;
 }
 
 .btn-gradient {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  background: -webkit-gradient(linear, left top, right top, from(#7f82f0), to(#5ad2d4));
-  background: -webkit-linear-gradient(left, #7f82f0 0%, #5ad2d4 100%);
-  background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#dc8f03), to(#5ad2d4));
+  background: -webkit-linear-gradient(left, #dc8f03 0%, #5ad2d4 100%);
+  background: linear-gradient(to right, #dc8f03 0%, #5ad2d4 100%);
   -webkit-box-shadow: 0px 11px 27px 0px rgba(154, 49, 188, 0.33);
           box-shadow: 0px 11px 27px 0px rgba(154, 49, 188, 0.33);
-  color: #FFF;
+  color: #fff;
   font-weight: 500;
   letter-spacing: 0.2px;
   text-align: center;
-  width: 100%;
+  width: 15%;
   padding: 0px 28px;
 }
 
@@ -2150,24 +2179,27 @@ select:visited, .hg-form-component-input .input-group input:visited[type=text], 
   border: 0;
 }
 
-.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next, .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev {
+.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next,
+.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev {
   background: center center no-repeat;
   background-size: 75% 75%;
   border: 0;
   cursor: pointer;
   width: 20px;
   height: 30px;
-  opacity: .5;
+  opacity: 0.5;
   filter: alpha(opacity=50);
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next span, .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev span {
+.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next span,
+.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev span {
   display: none;
 }
 
-.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next:hover, .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev:hover {
+.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next:hover,
+.ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -2631,7 +2663,7 @@ select:visited, .hg-form-component-input .input-group input:visited[type=text], 
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 530px;
+  min-height: 400px;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -2646,25 +2678,25 @@ select:visited, .hg-form-component-input .input-group input:visited[type=text], 
 
 @media (max-width: 479px) {
   .hg-reviews {
-    min-height: 520px;
+    min-height: 400px;
   }
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
   .hg-reviews {
-    min-height: 370px;
+    min-height: 400px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 760px) {
   .hg-reviews {
-    min-height: 550px;
+    min-height: 400px;
   }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hg-reviews {
-    min-height: 400px;
+    min-height: 300px;
   }
 }
 
@@ -3629,7 +3661,7 @@ select:visited, .hg-form-component-input .input-group input:visited[type=text], 
   position: relative;
 }
 
-.hg-room-meta--qt select, .hg-room-meta--qt .hg-form-component-input .input-group input[type=text], .hg-form-component-input .input-group .hg-room-meta--qt input[type=text] {
+.hg-room-meta--qt select, .hg-room-meta--qt .hg-form-component-input .input-group input[type="text"], .hg-form-component-input .input-group .hg-room-meta--qt input[type="text"] {
   width: auto;
   border-bottom: none;
   padding: 3px 25px 3px 5px;
@@ -4016,7 +4048,7 @@ select:visited, .hg-form-component-input .input-group input:visited[type=text], 
   margin: 0 10px;
 }
 
-.hg-customer select, .hg-customer .hg-form-component-input .input-group input[type=text], .hg-form-component-input .input-group .hg-customer input[type=text] {
+.hg-customer select, .hg-customer .hg-form-component-input .input-group input[type="text"], .hg-form-component-input .input-group .hg-customer input[type="text"] {
   border: 1px solid rgba(0, 0, 0, 0.1);
   height: auto;
 }
